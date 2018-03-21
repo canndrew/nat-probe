@@ -1,0 +1,14 @@
+[package]
+name = "probe"
+version = "0.1.0"
+authors = ["Andrew Cann <shum@canndrew.org>"]
+
+[dependencies]
+tokio-core = "*"
+tokio-io = "*"
+futures = "*"
+future-utils = "*"
+unwrap = "1"
+net-literals = "*"
+futures-await = "*"
+
